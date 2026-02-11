@@ -8,7 +8,7 @@ paths:
   /utokadUppgiftsbeskrivning:
     get:
       tags: [RegelManuellController]
-      operationId: getUtokadUppgiftBeskrivning
+      operationId: getUtokadUppgiftsbeskrivning
       summary: Hämta utökad beskrivning av uppgift
       responses:
         "200":
