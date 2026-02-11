@@ -5,18 +5,18 @@ info:
   description: Gemensamt API för en manuell regel
 
 paths:
-  /utokadUppgiftBeskrivning:
+  /utokadUppgiftsbeskrivning:
     get:
       tags: [RegelManuellController]
       operationId: getUtokadUppgiftBeskrivning
       summary: Hämta utökad beskrivning av uppgift
       responses:
         "200":
-          description: Hämtning av utökad uppgift beskrivning slutförd OK
+          description: Hämtning av utökad uppgiftsbeskrivning slutförd OK
           content:
             application/json:
               schema:
-                $ref: "#/components/schemas/GetUtokadUppgiftBeskrivningResponse"
+                $ref: "#/components/schemas/GetUtokadUppgiftsbeskrivningResponse"
 
   /{kundbehovsflodeId}/done:
     post:
@@ -40,7 +40,7 @@ paths:
 
 components:
   schemas:
-    GetUtokadUppgiftBeskrivningResponse:
+    GetUtokadUppgiftsbeskrivningResponse:
       type: object
       properties:
         beskrivning:
