@@ -1,3 +1,9 @@
+## 0.3.1 (2026-02-11)
+
+### Bug Fixes
+
+-  Add GET endpoint for extended task description ([5c16f](https://github.com/Forsakringskassan/rimfrost-framework-regel-manuell-openapi/commit/5c16f3ee9dfce03) Lars Persson)  
+
 ## 0.3.0 (2026-02-10)
 
 ### Bug Fixes
